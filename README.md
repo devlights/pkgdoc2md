@@ -3,6 +3,10 @@
 `pkg.go.dev` の特定パッケージページをMarkdownに変換するCLIツールです。  
 LLMへのアップロード用途を想定して、ドキュメント本文のみを抽出します。
 
+HTMLからMarkdownへの変換には [html-to-markdown](https://github.com/JohannesKaufmann/html-to-markdown/tree/v1.6.0) を利用しています。
+
+最新版の [html-to-markdown](https://github.com/JohannesKaufmann/html-to-markdown/tree/main) では GFM スタイルに変換するプラグインが無くなっているので、v1.6.0 を使ってます。
+
 ## インストール
 
 ```bash
